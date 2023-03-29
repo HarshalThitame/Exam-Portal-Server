@@ -17,7 +17,7 @@ Spring Boot Exam Portal is a web application for managing exams and grades. It a
 
 java -jar target/exam-portal-0.0.1-SNAPSHOT.jar
 
-Open a web browser and go to [](http://localhost:8080) to access the application.
+Open a web browser and go to [Karma](http://localhost:8080) to access the application.
 
 
 
