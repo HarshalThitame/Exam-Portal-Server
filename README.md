@@ -1,27 +1,40 @@
-# Exam-Portal-Server# Examclient
+# ExamServer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Spring Boot Exam Portal is a web application for managing exams and grades. It allows users to create and take exams, view their grades and exam history, and manage their account information.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+### Clone the repository:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+	git clone [Karma](https://github.com/HarshalThitame/Exam-Portal-Server.git).
+	
+### Navigate to the project directory:
 
-## Build
+	cd Exam-Portal
+	
+### Build the project:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+java -jar target/exam-portal-0.0.1-SNAPSHOT.jar
 
-## Running unit tests
+Open a web browser and go to [](http://localhost:8080) to access the application.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Usage
 
-## Further help
+### Creating an Exam
+To create an exam, log in as an administrator and go to the "Exams" page. Click the "Create Exam" button and fill in the exam details, including the exam name, duration, and questions.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Taking an Exam
+To take an exam, log in as a student and go to the "Exams" page. Find the exam you want to take and click the "Take Exam" button. Answer the questions and submit your answers before the exam time runs out.
+
+## Viewing Grades and Exam History
+To view your grades and exam history, log in as a student and go to the "Grades" page. You can view your grades for each exam and your overall GPA.
+
+## Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request. We welcome all contributions, including bug fixes, new features, and documentation improvements.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
