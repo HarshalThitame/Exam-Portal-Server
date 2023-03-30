@@ -105,7 +105,6 @@ If you would like to contribute to this project, please fork the repository and 
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-![Screenshot from 2023-03-30 03-32-07](https://user-images.githubusercontent.com/81034299/228677681-1ccefc9b-853b-4839-a6f2-6bd69aee1f2c.png)
 	
 		
 
